@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<style>
+.d {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-image: url('');
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+}
+
+.login {
+	margin-top: 13%;
+	height: 300px;
+	width: 300px;
+	background-color: black;
+	opacity: 0.8;
+	margin-left: 38%;
+}
+
+.s_login {
+	margin-top: 2px;
+	position: fixed;
+	margin-left: 65px;
+}
+</style>
+</head>
+<body>
+	<div class="login">
+		<form method=post action='validate'>
+			<div class="s_login">
+				<p style="font-size: 30px; color: white;">Login</p>
+				<br> <input type=text name=email placeholder="Email"> <br>
+				<br> <input type=password name=password placeholder="Password">
+				<br> <br>
+				<br> <input type=submit value=Login>&nbsp;&nbsp;<a
+					href="signup.jsp">New User?</a>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
